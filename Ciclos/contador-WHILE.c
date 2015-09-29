@@ -23,7 +23,7 @@ void main() {
     la condicion de control sea false.
   */
   int a = 1;
-  while (a > 10) {
+  while (a < 10) {
     a = a + 1;  //Tomamos el valor actual de a y le sumamos 1, al resultado de esta operacion
                 //es asignado hacia a
   }
