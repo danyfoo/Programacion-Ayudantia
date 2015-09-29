@@ -8,7 +8,7 @@ void main() {
   //indicada dentro de while(CONDICION) no se cumpla.
 
   /*
-    Composicion del For
+    Composicion del While
 
     while(CONDICION_DE_CONTROL){
       CUERPO
@@ -22,8 +22,9 @@ void main() {
     CUERPO: Codigo que se repetira el numero de veces que sea necesario hasta que,
     la condicion de control sea false.
   */
-  int a = 1;
+  int a = 0;
   while (a < 10) {
+    printf("%d\n", a);
     a = a + 1;  //Tomamos el valor actual de a y le sumamos 1, al resultado de esta operacion
                 //es asignado hacia a
   }
