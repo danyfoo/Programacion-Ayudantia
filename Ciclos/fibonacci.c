@@ -1,7 +1,7 @@
-#include <stidio.h>
-#include <sdtlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-#define SUCESIONES 20;
+#define SUCESIONES 20
 /*Codigo que demuestra la sucesion de Fibonacci (N sucesiones)*/
 void main() {
   int ante_anterior = 0;  //El numero dos posiciones antes del numero actual
@@ -19,5 +19,5 @@ void main() {
     ante_anterior = anterior; //Ahora el numero dos posiciones antes tiene el valor del de una posicion antes
     anterior = actual;  //Ahora el numero de una posicion antes tiene el valor del actual
   }
-  printf("... Y la sucesion sigue, joven");
+  printf("... Y la sucesion sigue, joven\n");
 }
