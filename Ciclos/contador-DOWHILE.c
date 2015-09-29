@@ -20,8 +20,9 @@ void main() {
     CUERPO: Codigo que se repetira el numero de veces que sea necesario hasta que,
     la condicion de control sea false, se ejecutara por lo menos una vez.
   */
-  int a = 1;
+  int a = 0;
   do {
+    printf("%d\n", a);
     a = a + 1;
   } while(a < 10);
 }
